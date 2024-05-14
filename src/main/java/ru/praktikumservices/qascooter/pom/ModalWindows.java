@@ -1,4 +1,4 @@
-package ru.praktikum_services.qa_scooter.pom;
+package ru.praktikumservices.qascooter.pom;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

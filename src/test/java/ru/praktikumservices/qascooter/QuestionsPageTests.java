@@ -1,11 +1,11 @@
-package ru.praktikum_services.qa_scooter.qa_scooter;
+package ru.praktikumservices.qascooter;
 
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import ru.praktikum_services.qa_scooter.pom.QuestionsPage;
-import ru.praktikum_services.qa_scooter.rules.BrowserRule;
+import ru.praktikumservices.qascooter.pom.QuestionsPage;
+import ru.praktikumservices.qascooter.rules.BrowserRule;
 
 import static java.lang.String.format;
 import static org.junit.Assert.assertEquals;
@@ -23,7 +23,7 @@ public class QuestionsPageTests {
     }
 
     @Parameterized.Parameters
-    public static Object[][] getCities() {
+    public static Object[][] getQuestionsAndAnswersData() {
         return new Object[][]{
                 {0, "Сколько это стоит? И как оплатить?", "Сутки — 400 рублей. Оплата курьеру — наличными или картой."},
                 {1, "Хочу сразу несколько самокатов! Так можно?", "Пока что у нас так: один заказ — один самокат. Если хотите покататься с друзьями, можете просто сделать несколько заказов — один за другим."},

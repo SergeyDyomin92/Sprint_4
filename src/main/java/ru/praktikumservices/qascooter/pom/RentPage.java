@@ -1,4 +1,4 @@
-package ru.praktikum_services.qa_scooter.pom;
+package ru.praktikumservices.qascooter.pom;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -40,11 +40,11 @@ public class RentPage {
     }
 
     public String getRentPeriodOptionByText(String option) {
-         return format(rentPeriodOption, option);
+        return format(rentPeriodOption, option);
     }
 
     public String getElementOfColourScooterCheckbox(String name) {
-       return format(colourScooterCheckbox, name);
+        return format(colourScooterCheckbox, name);
     }
 
     public RentPage setColourCheckbox(String colour) {

@@ -1,12 +1,12 @@
-package ru.praktikum_services.qa_scooter.rules;
+package ru.praktikumservices.qascooter.rules;
 
 import org.junit.rules.ExternalResource;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import ru.praktikum_services.qa_scooter.pom.HomePage;
+import ru.praktikumservices.qascooter.pom.HomePage;
 
-public class BrowserRule  extends ExternalResource {
+public class BrowserRule extends ExternalResource {
     private WebDriver driver;
 
     protected void before() {
